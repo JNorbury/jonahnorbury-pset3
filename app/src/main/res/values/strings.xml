@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">jonahnorbury-pset3</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="start_screen_title_text">What Movie Should You Watch?</string>
+    <string name="start_button_text">Start</string>
+    <string name="add_movie_button_text">Add Movie</string>
+    <string name="movie_name_edit_text">Movie Name</string>
+    <string name="search_movie_button_text">Add Movie</string>
+    <string name="add_new_movie_edit_text">Add New Movie</string>
+    <string name="plot_text_view">plot</string>
+    <string name="movie_title_text_view">movie title</string>
+    <string name="actors_text_view">actors</string>
+    <string name="director_text_view">director</string>
+    <string name="year_text_view">year</string>
+    <string name="add_new_movie_list_view_text">+</string>
+</resources>
