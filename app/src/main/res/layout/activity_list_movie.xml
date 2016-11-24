@@ -14,11 +14,11 @@
     <ListView
         android:layout_width="wrap_content"
         android:id="@+id/listView1"
-        android:layout_alignParentTop="true"
         android:layout_above="@+id/button4"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"></ListView>
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"></ListView>
 
     <Button
         android:text="@string/add_new_movie_list_view_text"
@@ -29,5 +29,13 @@
         android:onClick="getNewMovie"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/tap_a_movie_to_remove_hint_text_view" />
 
 </RelativeLayout>
